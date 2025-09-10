@@ -55,8 +55,7 @@ header {
     border: solid 1px #CCCCCC;
     padding-left: 2.5rem;
 
-    font-size: 1rem;
-}
+    font-size: 1rem;}
 
 .Banner {
     background-image: url(./assets/imgs/banner.png);
@@ -170,4 +169,19 @@ header {
 
 footer p{
     font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* MEDIA */
+@media screen and (max-width: 600px) {
+    .Banner{
+        aspect-ratio: 2.0;
+        }
 }
